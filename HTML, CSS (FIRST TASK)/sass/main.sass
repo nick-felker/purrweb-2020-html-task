@@ -11,6 +11,10 @@ body
     z-index: 2
     padding: 5px
     top: 500px
+    a
+        &:hover
+            opacity: 0.5
+            transition: 1s
     div
         padding-bottom: 5px
     position: absolute
@@ -33,13 +37,13 @@ body
 .MenuHamburger
     padding-left: 10px
     &:hover
-        opacity: 0.5
-        transition: 1s
+        opacity: 0.3
+        transition: 2s
     img
         width: 30px
 
 .MenuNavText
-    a
+    p
         color: #2f1946
         text-decoration: none
         font-size: 20px
@@ -70,6 +74,9 @@ body
 .HeaderButton
     margin-top: 80px
 .InnerButton
+    &:hover
+        opacity: 0.5
+        transition: 1s
     a
         padding: 5px 25px
         border-radius: 20px
@@ -222,6 +229,9 @@ body
         padding: 10px 60px
         border-radius: 4px
         text-transform: uppercase
+        &:hover
+            opacity: 0.5
+            transition: 2s
 .EmailInputReg
     padding-top: 10px
     padding-bottom: 10px
@@ -272,6 +282,9 @@ body
         padding: 10px 120px
         border-radius: 4px
         text-decoration: none
+        &:hover
+            transition: 2s
+            opacity: 0.5
 .ThirdSection
     background: url('../img/ThirdBackground.jpg')
     background-repeat: no-repeat
@@ -313,6 +326,8 @@ body
         text-transform: uppercase
         padding: 10px 20px
         border-radius: 4px
+        &:hover
+            background: linear-gradient(90deg, rgba(3,255,105,1) 0%, rgba(255,232,182,1) 100%)
 .mailing
     display: flex
     justify-content: center
@@ -344,6 +359,9 @@ body
         padding-right: 25px
         padding-bottom: 11px 
         text-transform: uppercase
+        &:hover
+            opacity: 0.5
+            transition: 1s
 .OfferNav
     background: #fafafa
     margin-top: 100px
@@ -358,6 +376,9 @@ body
         color: #2f1946
         font-size: 18px
         text-decoration: none
+        &:hover
+            opacity: 0.4
+            transition: 1s
     display: flex
     flex-wrap: wrap
 .Languages
@@ -365,6 +386,10 @@ body
     padding-bottom: 20px
     justify-content: center
     flex-wrap: wrap
+    img
+        &:hover
+            transform: rotate(360deg)
+            transition: 1s
     div
         padding-right: 10px
 footer
@@ -381,8 +406,7 @@ footer
         width: 500px
 
 
-
-
+  
 
 @media screen and ( max-width: 900px )
     .OfferNav__list
