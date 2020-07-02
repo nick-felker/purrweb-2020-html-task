@@ -15,6 +15,9 @@ body {
   top: 500px;
   position: absolute;
   background: #45124c; }
+  .StickyMenu a:hover {
+    opacity: 0.5;
+    transition: 1s; }
   .StickyMenu div {
     padding-bottom: 5px; }
   .StickyMenu img {
@@ -22,6 +25,7 @@ body {
 
 .FirstSection {
   background: url("../img/FirstBackground.jpg");
+  background-attachment: fixed;
   height: 1030px;
   background-size: cover;
   background-position: center; }
@@ -38,12 +42,12 @@ body {
 .MenuHamburger {
   padding-left: 10px; }
   .MenuHamburger:hover {
-    opacity: 0.5;
-    transition: 1s; }
+    opacity: 0.3;
+    transition: 2s; }
   .MenuHamburger img {
     width: 30px; }
 
-.MenuNavText a {
+.MenuNavText p {
   color: #2f1946;
   text-decoration: none;
   font-size: 20px;
@@ -78,6 +82,9 @@ body {
 .HeaderButton {
   margin-top: 80px; }
 
+.InnerButton:hover {
+  opacity: 0.5;
+  transition: 1s; }
 .InnerButton a {
   padding: 5px 25px;
   border-radius: 20px;
@@ -244,6 +251,9 @@ body {
   padding: 10px 60px;
   border-radius: 4px;
   text-transform: uppercase; }
+  .FaceBookButton a:hover {
+    opacity: 0.5;
+    transition: 2s; }
 
 .EmailInputReg {
   padding-top: 10px;
@@ -299,6 +309,9 @@ body {
     padding: 10px 120px;
     border-radius: 4px;
     text-decoration: none; }
+    .RegButton a:hover {
+      transition: 2s;
+      opacity: 0.5; }
 
 .ThirdSection {
   background: url("../img/ThirdBackground.jpg");
@@ -346,6 +359,8 @@ body {
     text-transform: uppercase;
     padding: 10px 20px;
     border-radius: 4px; }
+    .InnerCircle__Button a:hover {
+      background: linear-gradient(90deg, #03ff69 0%, #ffe8b6 100%); }
 
 .mailing {
   display: flex;
@@ -379,6 +394,9 @@ body {
   padding-right: 25px;
   padding-bottom: 11px;
   text-transform: uppercase; }
+  .mailing__button a:hover {
+    opacity: 0.5;
+    transition: 1s; }
 
 .OfferNav {
   background: #fafafa;
@@ -397,12 +415,18 @@ body {
     color: #2f1946;
     font-size: 18px;
     text-decoration: none; }
+    .OfferNav__list a:hover {
+      opacity: 0.4;
+      transition: 1s; }
 
 .Languages {
   display: flex;
   padding-bottom: 20px;
   justify-content: center;
   flex-wrap: wrap; }
+  .Languages img:hover {
+    transform: rotate(360deg);
+    transition: 1s; }
   .Languages div {
     padding-right: 10px; }
 
@@ -418,6 +442,11 @@ footer {
     background: #d3d3d3;
     height: 1px;
     width: 500px; }
+
+    ::-webkit-input-placeholder { color: #2f1946; font-weight: bold;}
+    ::-moz-placeholder          { color: #2f1946;font-weight: bold; } 
+    :-moz-placeholder           { color: #2f1946; font-weight: bold;} 
+    :-ms-input-placeholder      { color: #2f1946; font-weight: bold;}
 
 @media screen and (max-width: 900px) {
   .OfferNav__list {
@@ -482,7 +511,7 @@ footer {
 
   .ThirdBlock .FirstParth img {
     width: 50px; } }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .MainLogo img {
     width: 200px; }
 
@@ -502,7 +531,10 @@ footer {
     width: 200px; }
 
   .Fill {
-    padding: 10px 15px; }
+    padding: 10px 50px; }
+
+  .WelcomeOffer {
+    padding-top: 200px; }
 
   .RegButton a {
     padding: 5px 60px; }
@@ -520,12 +552,12 @@ footer {
     width: 180px; }
 
   .ExternalCircleJoin {
-    width: 200px;
-    height: 200px; }
+    width: 300px;
+    height: 300px; }
 
   .InnerCircleJoin {
-    width: 150px;
-    height: 150px; }
+    width: 200px;
+    height: 200px; }
 
   .InnerCircle__Join p {
     font-size: 25px; }
@@ -622,13 +654,10 @@ footer {
     padding-right: 0px; }
 
   footer hr {
-    width: 100px; }
-
-  .WelcomeOffer {
-    padding-top: 100px; } }
+    width: 100px; } }
 @media screen and (max-width: 320px) {
   .WelcomeOffer {
-    padding-top: 0px; }
+    padding-top: 100px; }
 
   .MainLogo img {
     width: 200px; }
@@ -766,6 +795,9 @@ footer {
   footer hr {
     width: 100px; } }
 @media screen and (max-width: 200px) {
+  .WelcomeOffer {
+    padding-top: 100px; }
+
   .MainLogo img {
     width: 200px; }
 
