@@ -1,0 +1,904 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  height: 100%;
+  padding-bottom: 100px; }
+
+.StickyMenu {
+  z-index: 2;
+  padding: 5px;
+  top: 500px;
+  position: absolute;
+  background: #45124c; }
+  .StickyMenu div {
+    padding-bottom: 5px; }
+  .StickyMenu img {
+    width: 20px; }
+
+.FirstSection {
+  background: url("../img/FirstBackground.jpg");
+  height: 1030px;
+  background-size: cover;
+  background-position: center; }
+
+.MenuNav {
+  display: flex;
+  margin-right: 50px;
+  margin-top: 50px; }
+
+.MenyHeaderNav {
+  display: flex;
+  justify-content: flex-end; }
+
+.MenuHamburger {
+  padding-left: 10px; }
+  .MenuHamburger:hover {
+    opacity: 0.5;
+    transition: 1s; }
+  .MenuHamburger img {
+    width: 30px; }
+
+.MenuNavText a {
+  color: #2f1946;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.MainLogo {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px; }
+  .MainLogo img {
+    width: 400px; }
+
+.HeaderOffer {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center; }
+  .HeaderOffer p {
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #2f1946; }
+
+.HeaderButton {
+  display: flex;
+  justify-content: center; }
+
+.ExternalButton {
+  border: 1px solid #81398b;
+  border-radius: 30px;
+  padding: 10px 10px; }
+
+.HeaderButton {
+  margin-top: 80px; }
+
+.InnerButton a {
+  padding: 5px 25px;
+  border-radius: 20px;
+  background: #81398b;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center; }
+.InnerButton img {
+  padding-top: 4px;
+  padding-left: 5px; }
+
+.OfferBlocks {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center; }
+
+.FirstBlock {
+  padding-right: 20px; }
+  .FirstBlock .FirstParth {
+    padding: 40px;
+    background-color: #fe4a5d;
+    display: flex;
+    justify-content: center; }
+    .FirstBlock .FirstParth img {
+      width: 90px; }
+  .FirstBlock .SecondParth {
+    background-color: #e44254;
+    display: flex;
+    padding: 20px 15px;
+    justify-content: center; }
+    .FirstBlock .SecondParth p {
+      color: white;
+      font-size: 20px; }
+
+.SecondBlock {
+  padding-right: 20px; }
+  .SecondBlock .FirstParth {
+    padding: 40px;
+    background-color: #e22028;
+    display: flex;
+    justify-content: center; }
+    .SecondBlock .FirstParth img {
+      width: 90px; }
+  .SecondBlock .SecondParth {
+    background-color: #cb1d24;
+    display: flex;
+    padding: 20px 15px;
+    justify-content: center; }
+    .SecondBlock .SecondParth p {
+      color: white;
+      font-size: 20px; }
+
+.ThirdBlock .FirstParth {
+  padding: 40px;
+  background-color: #ff6c00;
+  display: flex;
+  justify-content: center; }
+  .ThirdBlock .FirstParth img {
+    width: 90px; }
+.ThirdBlock .SecondParth {
+  background-color: #e56100;
+  display: flex;
+  padding: 20px 15px;
+  justify-content: center; }
+  .ThirdBlock .SecondParth p {
+    color: white;
+    font-size: 20px; }
+
+.WelcomeSection {
+  padding-bottom: 50px; }
+
+.WelcomeOffer {
+  margin-top: 160px;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #2f1946;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .WelcomeOffer img {
+    width: 50px; }
+
+.WelcomeOffer__Logo {
+  padding-right: 10px;
+  padding-top: 10px; }
+
+.Quote {
+  padding-top: 50px;
+  display: flex;
+  font-size: 20px;
+  color: #2f1946;
+  justify-content: center; }
+  .Quote p {
+    text-align: center; }
+
+.authorQuote {
+  display: flex;
+  justify-content: center;
+  padding-left: 400px;
+  font-size: 20px;
+  color: #fe4a5d; }
+
+.RegistrationForm {
+  background: url("../img/RegistrationBackground.jpg");
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+  background-position-x: 50%; }
+
+.RegForm {
+  display: flex;
+  justify-content: center; }
+
+.GradientBorder {
+  padding: 6px 6px;
+  position: relative;
+  background: linear-gradient(90deg, #e32427 0%, #f9b316 100%); }
+
+.Fill {
+  background: white;
+  padding: 10px 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+.toJoin {
+  text-transform: uppercase;
+  padding-top: 50px;
+  font-size: 40px;
+  color: #2f1946;
+  padding-bottom: 40px; }
+
+.OR {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center; }
+  .OR .OrText {
+    text-transform: uppercase;
+    color: #a2a2a2;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .OR .leftHr {
+    height: 1px;
+    background: #a2a2a2;
+    border: none;
+    width: 80px; }
+  .OR .rightHr {
+    height: 1px;
+    width: 80px; }
+
+.FaceBookLogoByText {
+  padding-right: 3px;
+  font-weight: 800;
+  text-transform: lowercase; }
+
+.FaceBookButton a {
+  background: #2f53a3;
+  font-weight: 700;
+  outline: none;
+  color: white;
+  text-decoration: none;
+  padding: 10px 60px;
+  border-radius: 4px;
+  text-transform: uppercase; }
+
+.EmailInputReg {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .EmailInputReg input {
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid grey;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px; }
+
+.UsernameInputReg {
+  padding-bottom: 10px; }
+  .UsernameInputReg input {
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid grey;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px; }
+
+.PasswordInputReg {
+  padding-bottom: 10px; }
+  .PasswordInputReg input {
+    border-radius: 4px;
+    border: 1px solid grey;
+    width: 300px;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px; }
+
+.ConfirmPasswordInputReg {
+  padding-bottom: 20px; }
+  .ConfirmPasswordInputReg input {
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid grey;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px; }
+
+.RegButton {
+  padding-bottom: 100px; }
+  .RegButton a {
+    background: #81398b;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 120px;
+    border-radius: 4px;
+    text-decoration: none; }
+
+.ThirdSection {
+  background: url("../img/ThirdBackground.jpg");
+  background-repeat: no-repeat;
+  background-position-x: 60%;
+  height: 730px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.ExternalCircleJoin {
+  border: 1px solid white;
+  width: 500px;
+  border-radius: 50%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.InnerCircleJoin {
+  background: white;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.InnerCircle__Join {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #67326e; }
+
+.InnerCircle__Free {
+  font-size: 40px;
+  color: #67326e; }
+
+.InnerCircle__Button {
+  padding-top: 25px; }
+  .InnerCircle__Button a {
+    background: linear-gradient(90deg, #e32427 0%, #f9b316 100%);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px; }
+
+.mailing {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  align-items: center; }
+
+.mailing__text {
+  color: #00cfae;
+  padding-right: 15px; }
+
+.mailing__input input {
+  outline: none;
+  height: 42px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border: 1px solid #cdcdcd;
+  border-right: 1px solid #00cfae; }
+
+.mailing__button a {
+  background: #00cfae;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 11px;
+  text-transform: uppercase; }
+
+.OfferNav {
+  background: #fafafa;
+  margin-top: 100px;
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  justify-content: center; }
+
+.OfferNav__list {
+  display: flex;
+  flex-wrap: wrap; }
+  .OfferNav__list div {
+    padding-right: 50px; }
+  .OfferNav__list a {
+    color: #2f1946;
+    font-size: 18px;
+    text-decoration: none; }
+
+.Languages {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .Languages div {
+    padding-right: 10px; }
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  footer p {
+    text-align: center; }
+  footer hr {
+    margin-bottom: 15px;
+    border: none;
+    background: #d3d3d3;
+    height: 1px;
+    width: 500px; }
+
+@media screen and (max-width: 900px) {
+  .OfferNav__list {
+    flex-direction: column;
+    align-items: center; }
+    .OfferNav__list div {
+      padding-right: 0px;
+      padding-bottom: 10px; }
+
+  .WelcomeOffer {
+    padding-top: 0px;
+    padding-bottom: 100px; } }
+@media screen and (max-width: 800px) {
+  .OfferNav__list div {
+    padding-right: 0px; }
+
+  .FirstSection {
+    height: 1080px; }
+
+  .WelcomeSection {
+    padding-top: 0px; }
+
+  .OfferNav__list {
+    flex-direction: column;
+    text-align: center; }
+    .OfferNav__list div {
+      padding-bottom: 10px; }
+
+  .SecondBlock .FirstParth img {
+    width: 50px; }
+
+  .FirstBlock .FirstParth img {
+    width: 50px; }
+
+  .ThirdBlock .FirstParth img {
+    width: 50px; } }
+@media screen and (max-width: 600px) {
+  .OfferNav__list div {
+    padding-right: 0px; }
+
+  .FirstSection {
+    height: 1080px; }
+
+  .WelcomeOffer {
+    margin-top: 50px;
+    padding-bottom: 50px; }
+
+  .WelcomeSection {
+    padding-top: 100px; }
+
+  .OfferNav__list {
+    flex-direction: column;
+    text-align: center; }
+    .OfferNav__list div {
+      padding-bottom: 10px; }
+
+  .SecondBlock .FirstParth img {
+    width: 50px; }
+
+  .FirstBlock .FirstParth img {
+    width: 50px; }
+
+  .ThirdBlock .FirstParth img {
+    width: 50px; } }
+@media screen and (max-width: 450px) {
+  .MainLogo img {
+    width: 200px; }
+
+  .OfferBlocks {
+    padding-top: 360px;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 200px; }
+
+  .HeaderOffer p {
+    font-size: 40px; }
+
+  .authorQuote {
+    padding-left: 0px; }
+
+  .footer hr {
+    width: 200px; }
+
+  .Fill {
+    padding: 10px 15px; }
+
+  .RegButton a {
+    padding: 5px 60px; }
+
+  .EmailInputReg input {
+    width: 180px; }
+
+  .UsernameInputReg input {
+    width: 180px; }
+
+  .PasswordInputReg input {
+    width: 180px; }
+
+  .ConfirmPasswordInputReg input {
+    width: 180px; }
+
+  .ExternalCircleJoin {
+    width: 200px;
+    height: 200px; }
+
+  .InnerCircleJoin {
+    width: 150px;
+    height: 150px; }
+
+  .InnerCircle__Join p {
+    font-size: 25px; }
+
+  .InnerCircle__Free p {
+    font-size: 20px; }
+
+  .InnerCircle__Button a {
+    padding: 7px 5px;
+    font-size: 12px; }
+
+  .mailing__text p {
+    font-size: 14px; }
+
+  .mailing {
+    flex-direction: column; }
+
+  .mailing__text {
+    padding-left: 10px; }
+    .mailing__text p {
+      text-align: center; }
+
+  .mailing__input {
+    padding-top: 10px; }
+    .mailing__input input {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 5px; }
+
+  .mailing__button {
+    padding-top: 15px; }
+    .mailing__button a {
+      font-size: 14px;
+      padding-top: 13px;
+      padding-left: 5px;
+      padding-right: 5px; }
+
+  .OfferNav {
+    font-size: 10px; }
+
+  .WelcomeOffer__Logo img {
+    width: 40px; }
+
+  .ThirdBlock .FirstParth {
+    padding: 40px 20px; }
+
+  .FirstBlock {
+    padding-right: 0px; }
+
+  .SecondBlock {
+    padding-right: 0px; }
+
+  .toJoin {
+    font-size: 25px; }
+
+  .FaceBookButton a {
+    font-size: 12px;
+    padding: 10px 25px; }
+
+  .OR .OrText {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10px; }
+
+  .OfferNav__list {
+    flex-direction: column;
+    align-items: center; }
+    .OfferNav__list div {
+      padding-bottom: 15px; }
+
+  .FirstBlock {
+    padding-bottom: 15px;
+    padding-top: 10px; }
+
+  .SecondBlock {
+    padding-bottom: 15px; }
+
+  .WelcomeSection {
+    padding-top: 400px; }
+
+  .WelcomeOffer__Text p {
+    font-size: 35px; }
+
+  .OfferNav__list div {
+    padding-right: 0px; }
+
+  .Languages div {
+    padding-right: 5px; }
+
+  .mailing__input input {
+    border-right: 1px solid #cdcdcd; }
+
+  .OfferNav__list div {
+    padding-right: 0px; }
+
+  footer hr {
+    width: 100px; }
+
+  .WelcomeOffer {
+    padding-top: 100px; } }
+@media screen and (max-width: 320px) {
+  .WelcomeOffer {
+    padding-top: 0px; }
+
+  .MainLogo img {
+    width: 200px; }
+
+  .OfferBlocks {
+    padding-top: 250px;
+    flex-direction: column; }
+
+  .HeaderOffer p {
+    font-size: 40px; }
+
+  .authorQuote {
+    padding-left: 0px; }
+
+  .footer hr {
+    width: 200px; }
+
+  .Fill {
+    padding: 10px 15px; }
+
+  .RegButton a {
+    padding: 5px 60px; }
+
+  .EmailInputReg input {
+    width: 180px; }
+
+  .UsernameInputReg input {
+    width: 180px; }
+
+  .PasswordInputReg input {
+    width: 180px; }
+
+  .ConfirmPasswordInputReg input {
+    width: 180px; }
+
+  .ExternalCircleJoin {
+    width: 200px;
+    height: 200px; }
+
+  .InnerCircleJoin {
+    width: 150px;
+    height: 150px; }
+
+  .InnerCircle__Join p {
+    font-size: 25px; }
+
+  .InnerCircle__Free p {
+    font-size: 20px; }
+
+  .InnerCircle__Button a {
+    padding: 7px 5px;
+    font-size: 12px; }
+
+  .mailing__text p {
+    font-size: 14px; }
+
+  .mailing {
+    flex-direction: column; }
+
+  .mailing__text {
+    padding-left: 10px; }
+    .mailing__text p {
+      text-align: center; }
+
+  .mailing__input {
+    padding-top: 10px; }
+    .mailing__input input {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 5px; }
+
+  .mailing__button {
+    padding-top: 15px; }
+    .mailing__button a {
+      font-size: 14px;
+      padding-top: 13px;
+      padding-left: 5px;
+      padding-right: 5px; }
+
+  .OfferNav {
+    font-size: 10px; }
+
+  .WelcomeOffer__Logo img {
+    width: 40px; }
+
+  .ThirdBlock .FirstParth {
+    padding: 40px 20px; }
+
+  .FirstBlock {
+    padding-right: 0px; }
+
+  .SecondBlock {
+    padding-right: 0px; }
+
+  .toJoin {
+    font-size: 25px; }
+
+  .FaceBookButton a {
+    font-size: 12px;
+    padding: 10px 25px; }
+
+  .OR .OrText {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10px; }
+
+  .OfferNav__list {
+    flex-direction: column;
+    align-items: center; }
+    .OfferNav__list div {
+      padding-bottom: 15px; }
+
+  .FirstBlock {
+    padding-bottom: 15px;
+    padding-top: 10px; }
+
+  .SecondBlock {
+    padding-bottom: 15px; }
+
+  .WelcomeSection {
+    padding-top: 400px; }
+
+  .WelcomeOffer__Text p {
+    font-size: 35px; }
+
+  .OfferNav__list div {
+    padding-right: 0px; }
+
+  .Languages div {
+    padding-right: 5px; }
+
+  .mailing__input input {
+    border-right: 1px solid #cdcdcd; }
+
+  footer hr {
+    width: 100px; } }
+@media screen and (max-width: 200px) {
+  .MainLogo img {
+    width: 200px; }
+
+  .OfferBlocks {
+    flex-direction: column; }
+
+  .HeaderOffer p {
+    font-size: 40px; }
+
+  .authorQuote {
+    padding-left: 0px; }
+
+  .footer hr {
+    width: 200px; }
+
+  .Fill {
+    padding: 10px 15px; }
+
+  .RegButton a {
+    padding: 5px 60px; }
+
+  .EmailInputReg input {
+    width: 180px; }
+
+  .UsernameInputReg input {
+    width: 180px; }
+
+  .PasswordInputReg input {
+    width: 180px; }
+
+  .ConfirmPasswordInputReg input {
+    width: 180px; }
+
+  .ExternalCircleJoin {
+    width: 200px;
+    height: 200px; }
+
+  .InnerCircleJoin {
+    width: 150px;
+    height: 150px; }
+
+  .InnerCircle__Join p {
+    font-size: 25px; }
+
+  .InnerCircle__Free p {
+    font-size: 20px; }
+
+  .InnerCircle__Button a {
+    padding: 7px 5px;
+    font-size: 12px; }
+
+  .mailing__text p {
+    font-size: 14px; }
+
+  .mailing {
+    flex-direction: column; }
+
+  .mailing__text {
+    padding-left: 10px; }
+    .mailing__text p {
+      text-align: center; }
+
+  .mailing__input {
+    padding-top: 10px; }
+    .mailing__input input {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 5px; }
+
+  .mailing__button {
+    padding-top: 15px; }
+    .mailing__button a {
+      font-size: 14px;
+      padding-top: 13px;
+      padding-left: 5px;
+      padding-right: 5px; }
+
+  .OfferNav {
+    font-size: 10px; }
+
+  .WelcomeOffer__Logo img {
+    width: 40px; }
+
+  .ThirdBlock .FirstParth {
+    padding: 40px 20px; }
+
+  .FirstBlock {
+    padding-right: 0px; }
+
+  .SecondBlock {
+    padding-right: 0px; }
+
+  .toJoin {
+    font-size: 25px; }
+
+  .FaceBookButton a {
+    font-size: 12px;
+    padding: 10px 25px; }
+
+  .OR .OrText {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10px; }
+
+  .OfferNav__list {
+    flex-direction: column;
+    align-items: center; }
+    .OfferNav__list div {
+      padding-bottom: 15px; }
+
+  .FirstBlock {
+    padding-bottom: 15px;
+    padding-top: 10px; }
+
+  .SecondBlock {
+    padding-bottom: 15px; }
+
+  .WelcomeSection {
+    padding-top: 400px; }
+
+  .WelcomeOffer__Text p {
+    font-size: 35px; }
+
+  .OfferNav__list div {
+    padding-right: 0px; }
+
+  .Languages div {
+    padding-right: 5px; }
+
+  .mailing__input input {
+    border-right: 1px solid #cdcdcd; }
+
+  footer hr {
+    width: 100px; } }
+
+/*# sourceMappingURL=main.css.map */
